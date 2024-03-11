@@ -5,8 +5,8 @@ import json
 from requests import post
 
 checkWeekDay = "mon"
-hour = 18
-minute = 58
+hour = 19
+minute = 8
 
 # checkWeekDay = "sun"
 # hour = 12
@@ -34,7 +34,7 @@ def job():
     with open('source.json',encoding="utf-8") as f:
         source = json.load(f)
     
-    msg = "\n請\n"
+    msg = "\n請 "
     try:
         if len(source[getTime()]) == 0 :
             return
