@@ -4,9 +4,13 @@ from datetime import datetime,timezone,timedelta
 import json
 from requests import post
 
-checkWeekDay = "sun"
-hour = 12
-minute = None
+checkWeekDay = "mon"
+hour = 18
+minute = 56
+
+# checkWeekDay = "sun"
+# hour = 12
+# minute = None
 
 def getTime()->str:
     source = datetime.utcnow().replace(tzinfo=timezone.utc) + timedelta(days=1)
