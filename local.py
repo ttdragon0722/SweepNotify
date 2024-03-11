@@ -6,7 +6,7 @@ from requests import post
 
 checkWeekDay = "mon"
 hour = 18
-minute = 56
+minute = 58
 
 # checkWeekDay = "sun"
 # hour = 12
