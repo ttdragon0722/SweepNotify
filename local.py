@@ -30,6 +30,7 @@ def sendMsg(msg:str):
     data = post(url, headers=headers, data=data) 
 
 def job():
+    print("job access.")
     with open('source.json',encoding="utf-8") as f:
         source = json.load(f)
     
